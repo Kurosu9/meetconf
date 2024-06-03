@@ -1,0 +1,8 @@
+.idea
+.env
+.venv
+venv
+gallery/__pycache__/
+event_registration/__pycache__/
+meetConf/__pycache__/
+migrations

@@ -1,0 +1,99 @@
+.container {
+    width: 1224px;
+    margin: 0 auto;
+}
+
+.main {
+    min-height: 100vh;
+    padding-top: 60px;
+}
+
+.header {
+    position: relative;
+    margin-bottom: 50px;
+    height: 500px;
+    border-bottom: 1px solid #575656;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 5px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header_inner {
+    background: url("./img/conference.png") no-repeat right 550px center;
+    background-size: 900px;
+    height: 500px;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.header_text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 1200px;
+    margin-top: 70px;
+    color: white;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+    width: 500px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.header_content h1 {
+    width: 700px;
+}
+
+.header_content p {
+    font-size: 18px;
+}
+
+/****************SliderOfLogos***********************/
+
+.logos {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.logos_inner {
+    height: 200px;
+    background-color: #F7931E;
+}
+
+.logos_inner img {
+    width: 100px;
+}
+
+/****************SliderOfMeets***********************/
+
+.meets {
+    position: relative;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.meets_inner {
+    width: 1080px;
+    margin: 0px auto;
+}
+
+/****************Gallery***********************/
+
+.gallery {
+    position: relative;
+    margin-bottom: 50px;
+}

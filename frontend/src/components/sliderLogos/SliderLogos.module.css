@@ -1,0 +1,12 @@
+.logo {
+    margin: 0px 25px;
+}
+
+.logo img{
+    width: 90px;
+    height: 90px;
+}
+
+.slick-prev, .slick-next {
+    display: none !important;
+}
